@@ -2,3 +2,4 @@
 ../Src/timer_driver.c:30:6:Timer_Start	1
 ../Src/timer_driver.c:34:6:Timer_Stop	1
 ../Src/timer_driver.c:39:6:Timer_PWM_Init	1
+../Src/timer_driver.c:54:6:Timer_SetDutyCycle	1

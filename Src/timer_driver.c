@@ -44,11 +44,15 @@ void Timer_PWM_Init(void){
 	TIM2->CCMR1 |= (CCMR1_OC1M | CCMR1_OC1PE);
 
 	//set initial duty cycle to 50%
-	TIM2->CCR1 = 750;
+	TIM2->CCR1 = LOAD_VAL / 2;
 
 	//enable ch1 as output
 	TIM2->CCER |= CCER_CC1E;
 
+}
+
+void Timer_SetDutyCycle(uint8_t duty){
+	TIM2->CCR1 = (LOAD_VAL * duty) /100;
 }
 
 

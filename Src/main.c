@@ -10,5 +10,7 @@ int main(void){
 	Timer_PWM_Init();
 	Timer_Start();
 
+	Timer_SetDutyCycle(10);
+
 	while(1){}
 }
