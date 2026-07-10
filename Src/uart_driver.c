@@ -48,7 +48,28 @@ void UART_WriteString(const char *str){ //const implies the func will NOT modify
 	}
 }
 
+void UART_WriteInt(uint32_t value){
 
+	char digits[10];
+	int count = 0;
+
+	if(value==0){
+		UART_WriteChar('0');
+		return;
+	}
+
+	while(value>0){
+		digits[count]= value % 10;
+		count++;
+		// OR: 	digits[count++]= value % 10;
+		value = value / 10;
+	}
+
+	for(int i = count-1 ; i >= 0; i--){
+		UART_WriteChar(digits[i] + '0');
+	}
+
+}
 
 
 

@@ -1,1 +1,3 @@
-../Src/gpio_driver.c:5:6:GPIO_Init	1
+../Src/gpio_driver.c:9:6:GPIO_Init	1
+../Src/gpio_driver.c:26:9:GPIO_ReadButton	1
+../Src/gpio_driver.c:30:9:GPIO_ButtonPressed	3
