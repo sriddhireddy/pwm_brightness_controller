@@ -1,3 +1,4 @@
-../Src/timer_driver.c:9:6:Timer_Init	4	static
-../Src/timer_driver.c:20:6:Timer_Start	4	static
-../Src/timer_driver.c:24:6:Timer_Stop	4	static
+../Src/timer_driver.c:15:6:Timer_Init	4	static
+../Src/timer_driver.c:30:6:Timer_Start	4	static
+../Src/timer_driver.c:34:6:Timer_Stop	4	static
+../Src/timer_driver.c:39:6:Timer_PWM_Init	4	static
