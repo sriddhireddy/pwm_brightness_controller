@@ -382,13 +382,13 @@ Duty Cycle: 0%
 ## Hardware Setup
 
 <p align="center">
-  <img src="Images/hardware_setup.jpg" alt="Hardware Setup" width="700">
+  <img src="images/hardware_setup.jpg" alt="Hardware Setup" width="700">
 </p>
 
 ## UART Output
 
 <p align="center">
-  <img src="Images/uart_output.png" alt="UART Output" width="700">
+  <img src="images/uart_output.png" alt="UART Output" width="700">
 </p>
 
 ---
